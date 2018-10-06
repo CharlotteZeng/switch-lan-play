@@ -27,9 +27,15 @@ Enter the interface number (1-2):
 PC端工作完成。
 
 # 2、Switch端
-- switch打开Internet，进入WiFi，连接与PC在同一路由器上的WiFi，连接后点击Internet settings,Change Settings,IP Address Settings选择Manual，在IP Address填入10.13.?.?，后面两个?是1~254任意数字，但是不能与其他连接同一服务器的NS设置为一样的。
-- Subnet Mask填入255.255.0.0
-- Gateway填入10.13.37.1
+- switch打开Internet，进入WiFi，连接与PC在同一路由器上的WiFi，连接后点击Internet settings,Change Settings,IP Address Settings选择Manual，
+
+标题 | 填入 
+------- | ------- 
+IP Address | 10.13.?.? （后面两个?是1~254任意数字，但是不能与其他连接同一服务器的NS设置为一样的。）
+Subnet Mask | 255.255.0.0
+Gateway | 10.13.37.1
+
+
 - DNS内填写8.8.8.8以及8.8.4.4或是其他你知道的都行，这里不做限制。
 - 在想要联网玩的游戏内按下L+R+左手柄，切换为局域网，即可游玩。目前支持的游戏很少，仅仅是老任第一方的支持。
 
